@@ -70,7 +70,7 @@ pipeline {
         
         
         
-        stage('Terraform apply') {
+        stage('Terraform apply/destroy') {
             steps {
                
                 sh 'terraform apply --auto-approve'
